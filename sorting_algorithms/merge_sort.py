@@ -1,4 +1,3 @@
-import math
 
 def merge_sort(array):
     length = len(array)
