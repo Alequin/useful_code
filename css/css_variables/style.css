@@ -1,0 +1,19 @@
+:root{
+  --blue: #0000ff;
+  --red: #ff0000;
+  --box-display: inline-block;
+  --box-margin: 10px;
+  --box-size: 50px;
+}
+
+body{
+  background-color: var(--blue);
+}
+
+.box{
+  display: var(--box-display);
+  margin: var(--box-margin);
+  background-color: var(--red);
+  width: var(--box-size);
+  height: var(--box-size);
+}
