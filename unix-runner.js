@@ -6,7 +6,7 @@ const DIVIDER = "--------------------"
 async function runCommand(command){
   return await new Promise((resolve, reject) => {
     const child = exec(command, function (error, stdout, stderr) {
-      console.log(logResult(command, stdout, stderr, error));
+      logResult(command, stdout, stderr, error);
       resolve({
         stdout,
         stderr,
